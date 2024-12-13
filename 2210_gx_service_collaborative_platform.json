@@ -5,17 +5,17 @@
       "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
     ],
     "type": "VerifiableCredential",
-    "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis",
+    "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json",
     "issuer": "did:web:delta-dao.com",
     "issuanceDate": "2024-10-31T15:33:17.723Z",
     "credentialSubject": {
       "type": "gx:ServiceOffering",
       "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis/2210_gx_service_collaborative_platform.json",
       "gx:providedBy": {
-        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis"
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
       },
       "gx:maintainedBy": {
-        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis"
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
       },
       "gx:serviceOffering:name": "Ocean Enterprise Provider Connector and Access Controller",
       "gx:serviceOffering:description": "The Ocean Enterprise Provider connects digital services to the ecosystem, acts as access controller and proxy.",
@@ -49,6 +49,6 @@
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fZUpa7gtnBrALaM-2no36fX7acLjVl6k1rrPiqzdogoGRUmGTT9BlPZQI8FEyxIwH9M6v0FJ6_bsyM3qO-vmGwsj34VsMJbGj3dUrsMIf6ebBfUBzk62y2T8eX1J99FK5X7rkeu1Dxj6t6yPJ2yZm5UaMYnN9h-zQBV-_aloV6APhTUtZPSDGn1tQNpc95ytIvp0pLf89WRkqyANaJ7g4wybb0Qzl0F5_7ALvKC-EoT-ULjiBevTVnoluvSlbDTwfKpz7xT2pBKRclhsjzOgATUxpfn5SfQqMRtV3qkY9w1pAngEpBqTLxUjzaP5LmHBYzWhC5ZyLueCT6odmIrI2A"
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JbMQiaPkx4VBNnFAgEvEeh8KJsHfzd_XrwINg_Fa4en6dTw7BqJJBh3iXPCWKqFAIb2NRo6jdQ7TOSORMTCzkbkN2Wa6FOVahrB8UaVIoPshxKFihyAxBlq3evKP1BSNPUjtNAujfgZ4yhBM21t7Oy76Ceu3NEX84ik93dwn5N_qNA_Oeq0N1f4ZcxcvKk727zCOVIHqidhiGFkCy2gI9Kr4pZxfxHK3KTEh7bMKzyx0l7Kcy0JtE7uXPv6SEXoRd8r2YO_lcIwBOqKcPBLAV2leWGGiVkXrV7ZJWufAV0IfdjsVPk1Uzwi-3CEewgPB7K_MiUcUSVv-1k6eJbDeWQ"
     }
   }
