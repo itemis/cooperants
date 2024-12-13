@@ -1,0 +1,54 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1",
+      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": "VerifiableCredential",
+    "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2024-10-31T15:33:17.723Z",
+    "credentialSubject": {
+      "type": "gx:ServiceOffering",
+      "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis/2210_gx_service_collaborative_platform.json",
+      "gx:providedBy": {
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis"
+      },
+      "gx:maintainedBy": {
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis"
+      },
+      "gx:serviceOffering:name": "Ocean Enterprise Provider Connector and Access Controller",
+      "gx:serviceOffering:description": "The Ocean Enterprise Provider connects digital services to the ecosystem, acts as access controller and proxy.",
+      "gx:policy": "default: allow",
+      "gx:termsAndConditions": {
+        "gx:URL": "https://legal.itemis.com/"
+      },
+      "gx:serviceOffering:gdpr": [
+        {
+          "gx:serviceOffering:imprint": "https://www.itemis.com/en/imprint"
+        },
+        {
+          "gx:serviceOffering:privacyPolicy": "https://www.itemis.com/en/privacy-policy/"
+        }
+      ],
+      "gx:serviceOffering:dataProtectionRegime": [
+        "GDPR2016"
+      ],
+      "gx:dataAccountExport": {
+        "gx:requestType": "email",
+        "gx:accessType": "digital",
+        "gx:formatType": "application/zip"
+      }
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2024-12-13T12:10:24.380+01:00",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:gaiax.itemis.de#X509-JWK2020",
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fZUpa7gtnBrALaM-2no36fX7acLjVl6k1rrPiqzdogoGRUmGTT9BlPZQI8FEyxIwH9M6v0FJ6_bsyM3qO-vmGwsj34VsMJbGj3dUrsMIf6ebBfUBzk62y2T8eX1J99FK5X7rkeu1Dxj6t6yPJ2yZm5UaMYnN9h-zQBV-_aloV6APhTUtZPSDGn1tQNpc95ytIvp0pLf89WRkqyANaJ7g4wybb0Qzl0F5_7ALvKC-EoT-ULjiBevTVnoluvSlbDTwfKpz7xT2pBKRclhsjzOgATUxpfn5SfQqMRtV3qkY9w1pAngEpBqTLxUjzaP5LmHBYzWhC5ZyLueCT6odmIrI2A"
+    }
+  }
