@@ -7,7 +7,6 @@
   "type": "VerifiableCredential",
   "id": "https://raw.githubusercontent.com/itemis/cooperants/refs/heads/main/2210_gx_service_collaborative_platform.json",
   "issuer": "did:web:gaiax.itemis.de",
-  "issuanceDate": "2024-10-31T15:33:17.723Z",
   "credentialSubject": {
     "type": "gx:ServiceOffering",
     "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis/2210_gx_service_collaborative_platform.json",
@@ -40,15 +39,16 @@
       "gx:formatType": "application/zip"
     }
   },
+  "issuanceDate": "2024-12-16T13:32:24.468Z",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-12-16T13:26:56.912+01:00",
+    "created": "2024-12-16T14:32:24.484+01:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:gaiax.itemis.de#X509-JWK2020",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d9TscxWsP_n-P448FtpLf-GIlQtZPh_OI0VdcfWxQydbVUWjxqbOhNM8fdRr2Y0ZPMW4trO8AgjEm-1NadbPDouhZiNHhwAVm7vdVYo2ENPGinj5-9QitMQsydvhWkOWw9fG29ltg9kc-oDsD8L_hwOIyQTmpGVe1HUESnVc3M0ZmGXBCMXWGCVt0SE8VmcDOn9RVSDTbM2PkyeiODPIKwbhiRpJxBO5Ni4bTlzzbmXURYgc1HRW75__e5_5S4Wz1cVo9q1Uc8Sgkuqx8zEeVKW1VxKD7aw5MpKULakumJIlBEtgQmwfqrf42D8zA76me0HOtKc5ZTFgmCC3Kdu8Vg"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Fwgoip6EERE24FTIqWezsxPKnD8FJ9Jyh2dYBoX1M0UO23kbMA9xkDUwmxOQHsbNjGhLLXJZEfORPHQs9IZeFquaN6L6SlT5us3rhld4oKQltejvQ-ljfTvo72hrLrdqeUbqJPRBwpI8E9bIAo36WpLVxWzQ-JRWY0PEcGfkyKS7_YjJWTa6OqHeHUIOfhwlpvnyNafGBQATN_przoQbksfmS8Qw3OygYp_Tt4PZ96Xe--AVleDhANVsSoU9jjg19SWvgIa4U2sbIb8BYur2JmU0HbDVjTF5Nibd30VsnHUaX9vYTUQ8qYA5pUkZ_ZXnrDaq9mzSgPcFV8navMt8YQ"
   }
 }
