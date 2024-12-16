@@ -1,0 +1,160 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "issuanceDate": "2024-11-22T16:28:34.038Z",
+      "credentialSubject": {
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_tandc_itemis.json"
+      },
+      "issuer": "did:web:gaiax.itemis.de",
+      "id": "https://gaiax.itemis.de/.well-known/2210_gx_tandc_itemis.json",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-11-22T17:28:36.468+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:gaiax.itemis.de#X509-JWK2020",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ia5Z5YQNv_WANObdpvVw1xz_K1mdrE2iSBJ6frCL82-RRRSCkrqrNAmBhfeydGBmxkrGj1LoKC-9rqicScB88XpX9qJ157eglAlnX5H-ObtRcjmQCqmsoulrPnjsiMtnTlGbvZWF5bx4dMi5XSsbHSDOi1BsvugQikrvvv-UEArhvqOKx0Er0zL9GztZB0T8rgcu2ejsEMkH3MCFyKV1LwG38rwv_ORMJQdzqtFktNfR6ijcOgLX4X3GiSULFWS3GIJaycVxiDtbrq7lgWSGIyiEhUi06asw_6-e4s166iz-dibRg5o2MiZbzRm6lERzgsQCoP148jmz6Kkhare_Ng"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://gaiax.itemis.de/.well-known/2210_gx_registrationnumber_itemis.json",
+      "issuer": "did:web:www.delta-dao.com:notary:v1",
+      "issuanceDate": "2024-11-22T16:28:24.752Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_registrationnumber_itemis.json",
+        "gx:vatID": "DE231177498",
+        "gx:vatID-countryCode": "DE"
+      },
+      "evidence": [
+        {
+          "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+          "gx:executionDate": "2024-11-22T16:28:24.752Z",
+          "gx:evidenceOf": "gx:vatID"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-11-22T16:28:24.769Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RdiAaCAgsr98YG5QVJb8vwSeL8h6LiZ-kznICfRcmoI6rXf-nolHGs7Nj4uxicUdEsc0b45gElIjWHmoJEykTkXytHx1U1AjgSeNpYVoWtHq5xDlCvYjRRjdziBBCLz6Y8QoVYo1b_08aA2rsBd9ohPNmsueWtTVQSQTQbSP1EVDS0mWOzhR2wmfbakQZ_xp5njfM5g-i3XrLDuqLekINVpk_H_HNWmdDJmJpOVib5Js6HHaYbkBSWIz1Ot7heC5hc9_ge7QgbU7fj6btALKySOOH8EUjH9F0ZgAihxAzSUVqcNarky4TBXW30YUFlBVX-4sq1sPQe9pOIQ4dIX9VDaE8162cbGjhXfluo8aqUSEDDU8w1cMxEFaRnsV1LzePt9HnUO4MJbOERYcE-Hyl4yQ44HrYwCL2CE94eJNOGaAHHa8uKtsPUsdwWOdnLUpcxUFkk5WrnpvZziPZVEsKlLkF_yaJKLZ2rHdrR_7t_PGyVJJqXc8evYY-r7_g3vFE7Y75-cX2VLwSgOkfUyJMF6tbSia3ouSRAQvbXrIkpt6pPAPzBmeSn5VyTPg28zvVjs8RAk17ZoL4MOoPx-2AmskEwL8s8NhDDAjs3Mozwx6nXFLDM4qCvQkoT3ydRmoh4rC0zhpIE4wc4cRU7epxbhwcm6Xx-vugxbcsE_nCWc"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json",
+      "issuer": "did:web:gaiax.itemis.de",
+      "issuanceDate": "2024-11-22T16:28:34.038Z",
+      "credentialSubject": {
+        "gx:legalName": "itemis AG",
+        "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "DE-NW"
+        },
+        "gx:legalRegistrationNumber": {
+          "id": "https://gaiax.itemis.de/.well-known/2210_gx_registrationnumber_itemis.json"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "DE-NW"
+        },
+        "type": "gx:LegalParticipant",
+        "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-11-22T17:28:36.454+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:gaiax.itemis.de#X509-JWK2020",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GgWn6A4fL-xzL0WYdtFLdcw-nubyNRvJnDOXmleDdcEItwsLieeEeis6d4lr0txcbLrLzvzBtW6LW9JNgVzJSp3mhgxwMLWQY_AA4Z6jlsXIFd6eJJzOypkNxyxZAzqcDIR-2MgzllXDkHMxpnwr8ZtfQTQVTEUSA5T1Vk1PnJw6-rXc8vt_5axAu0xhtvinH98b9kAC0tcbYjiiCTsgi-kCfwJ18fDpW8zkz2LNMBoULNWtZ9LlS5b5vhLZNXAWMprWLj1aBwzg0x2DV4wb9rVTXvOMplQYXo1PfQhK49BbS26ah0zWLIyfT2ch-_b_vrNh8QWTLt9A7nMw5JagHQ"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "id": "https://raw.githubusercontent.com/itemis/cooperants/refs/heads/main/2210_gx_service_collaborative_platform.json",
+      "issuer": "did:web:gaiax.itemis.de",
+      "credentialSubject": {
+        "type": "gx:ServiceOffering",
+        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis/2210_gx_service_collaborative_platform.json",
+        "gx:providedBy": {
+          "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
+        },
+        "gx:maintainedBy": {
+          "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
+        },
+        "gx:serviceOffering:name": "Ocean Enterprise Provider Connector and Access Controller",
+        "gx:serviceOffering:description": "The Ocean Enterprise Provider connects digital services to the ecosystem, acts as access controller and proxy.",
+        "gx:policy": "default: allow",
+        "gx:termsAndConditions": {
+          "gx:URL": "https://legal.itemis.com/",
+          "gx:hash": "ignore"
+        },
+        "gx:serviceOffering:gdpr": [
+          {
+            "gx:serviceOffering:imprint": "https://www.itemis.com/en/imprint"
+          },
+          {
+            "gx:serviceOffering:privacyPolicy": "https://www.itemis.com/en/privacy-policy/"
+          }
+        ],
+        "gx:serviceOffering:dataProtectionRegime": [
+          "GDPR2016"
+        ],
+        "gx:dataAccountExport": {
+          "gx:requestType": "email",
+          "gx:accessType": "digital",
+          "gx:formatType": "application/zip"
+        }
+      },
+      "issuanceDate": "2024-12-16T14:36:59.321Z",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-12-16T15:36:59.338+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:gaiax.itemis.de#X509-JWK2020",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lQHMF1PBHfFdbHRYJqaWaAZIGqMF2ifQyM_ksYEU8WTxYusJHAxaCepYQQeJpHt0XYVNl8kBmeXkwNUo6f64x-2gdH9MHJY2uDx4hjavKUnjlCTsMVYQtaLiCXXzQMg7tG85Xm256xEbgekjkQEZ_6H0M7kU92-7C6vqY9NuE59wG3ZuYnyxlt40JE_zz4_n6dJT8JONuCQnjeCVLjCP252PivajlSrYxw6CA9bbrfSbbkEOukpZPyAuokXNo_EOBalTls2B-tgkiR8ixngkb5CnDIp3_CD90Qqx0tlJcWSxUa6yZjR0El9lpXBoICWa8fqt5VAEQ-pMnq5OYAU9EA"
+      }
+    }
+  ]
+}
