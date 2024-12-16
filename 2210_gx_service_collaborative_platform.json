@@ -6,7 +6,7 @@
     ],
     "type": "VerifiableCredential",
     "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json",
-    "issuer": "did:web:delta-dao.com",
+    "issuer": "did:web:gaiax.itemis.de",
     "issuanceDate": "2024-10-31T15:33:17.723Z",
     "credentialSubject": {
       "type": "gx:ServiceOffering",
