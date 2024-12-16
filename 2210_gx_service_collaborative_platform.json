@@ -5,7 +5,7 @@
       "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
     ],
     "type": "VerifiableCredential",
-    "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json",
+    "id": "https://github.com/itemis/cooperants/blob/main/2210_gx_service_collaborative_platform.json",
     "issuer": "did:web:gaiax.itemis.de",
     "issuanceDate": "2024-10-31T15:33:17.723Z",
     "credentialSubject": {
