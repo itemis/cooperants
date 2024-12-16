@@ -5,7 +5,7 @@
       "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
     ],
     "type": "VerifiableCredential",
-    "id": "https://github.com/itemis/cooperants/blob/main/2210_gx_service_collaborative_platform.json",
+    "id": "https://raw.githubusercontent.com/itemis/cooperants/refs/heads/main/2210_gx_service_collaborative_platform.json",
     "issuer": "did:web:gaiax.itemis.de",
     "issuanceDate": "2024-10-31T15:33:17.723Z",
     "credentialSubject": {
@@ -49,5 +49,5 @@
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..enkAfhTZN5c-nmjRTNx4g_82Vzp9IIaUA3yYma3DaG_nzVly8m9aiOSXsKEwmtoL-RlJ_oVOH2YvNKr6KaUhhtz_ZUG-U2PkJYPcE0S1DPve4vnb3sxzpDJk_f6CjJbf6Szt1Z8NMcmaTsroNV4VCpoUsyrdUsPuK2Ou5BMNNAx6MwKIlzpaReGUG7mX7bSwftw2c3TQTfgIWzrRvq_BqB94niGAflpCU8CxnGPWQg_sdTGKNlZPL-_XayKDv9b2SZwJVtAKABfvFMUuKnYQH7wsm8uG2hSvDWrVMYJRKxVGDOz0SK-ixnYWwvKUZsr-RuESLYhhd0lwzF273712Cg"    }
+"jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JufkdC3MUtnvjojskFpA_toKoTCasZYHXLe6f5LzyMoZWH7Rqaaj3KluLEjf3G8rVYsox8m8uuwYqJdvqRM3ZOwdzbBdIgYaiAEyTFalfNLY4QGZI6PNSgbx5fYlhJsE5wdq-jpLidLfezPI1k_NiArw-VtOvbcIDTX-VODTwKKlTa8c-lqDP7qF2KR0dc1v1svJjVXlte3M2iS7-MtURQJ3IkNS7IwvOxgKjSz6UdYom9-BhTYPVf1aXhi1M3kGlqNRqiV6s5_yIkKlldV7o1hb6LXxnVdKyQViczS0M8nMIlHgYDJIMEcb2lAP7QwcREEUPvv3VBvjb0QeexlXaA"
   }
