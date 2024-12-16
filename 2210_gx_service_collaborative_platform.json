@@ -1,53 +1,54 @@
 {
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": "VerifiableCredential",
+  "id": "https://raw.githubusercontent.com/itemis/cooperants/refs/heads/main/2210_gx_service_collaborative_platform.json",
+  "issuer": "did:web:gaiax.itemis.de",
+  "issuanceDate": "2024-10-31T15:33:17.723Z",
+  "credentialSubject": {
+    "type": "gx:ServiceOffering",
+    "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis/2210_gx_service_collaborative_platform.json",
+    "gx:providedBy": {
+      "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
+    },
+    "gx:maintainedBy": {
+      "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
+    },
+    "gx:serviceOffering:name": "Ocean Enterprise Provider Connector and Access Controller",
+    "gx:serviceOffering:description": "The Ocean Enterprise Provider connects digital services to the ecosystem, acts as access controller and proxy.",
+    "gx:policy": "default: allow",
+    "gx:termsAndConditions": {
+      "gx:URL": "https://legal.itemis.com/"
+    },
+    "gx:serviceOffering:gdpr": [
+      {
+        "gx:serviceOffering:imprint": "https://www.itemis.com/en/imprint"
+      },
+      {
+        "gx:serviceOffering:privacyPolicy": "https://www.itemis.com/en/privacy-policy/"
+      }
+    ],
+    "gx:serviceOffering:dataProtectionRegime": [
+      "GDPR2016"
+    ],
+    "gx:dataAccountExport": {
+      "gx:requestType": "email",
+      "gx:accessType": "digital",
+      "gx:formatType": "application/zip"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-12-16T13:26:56.912+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:gaiax.itemis.de#X509-JWK2020",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/security/suites/jws-2020/v1",
-      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "type": "VerifiableCredential",
-    "id": "https://raw.githubusercontent.com/itemis/cooperants/refs/heads/main/2210_gx_service_collaborative_platform.json",
-    "issuer": "did:web:gaiax.itemis.de",
-    "issuanceDate": "2024-10-31T15:33:17.723Z",
-    "credentialSubject": {
-      "type": "gx:ServiceOffering",
-      "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis/2210_gx_service_collaborative_platform.json",
-      "gx:providedBy": {
-        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
-      },
-      "gx:maintainedBy": {
-        "id": "https://gaiax.itemis.de/.well-known/2210_gx_participant_itemis.json"
-      },
-      "gx:serviceOffering:name": "Ocean Enterprise Provider Connector and Access Controller",
-      "gx:serviceOffering:description": "The Ocean Enterprise Provider connects digital services to the ecosystem, acts as access controller and proxy.",
-      "gx:policy": "default: allow",
-      "gx:termsAndConditions": {
-        "gx:URL": "https://legal.itemis.com/"
-      },
-      "gx:serviceOffering:gdpr": [
-        {
-          "gx:serviceOffering:imprint": "https://www.itemis.com/en/imprint"
-        },
-        {
-          "gx:serviceOffering:privacyPolicy": "https://www.itemis.com/en/privacy-policy/"
-        }
-      ],
-      "gx:serviceOffering:dataProtectionRegime": [
-        "GDPR2016"
-      ],
-      "gx:dataAccountExport": {
-        "gx:requestType": "email",
-        "gx:accessType": "digital",
-        "gx:formatType": "application/zip"
-      }
-    },
-    "proof": {
-      "type": "JsonWebSignature2020",
-      "created": "2024-12-13T12:10:24.380+01:00",
-      "proofPurpose": "assertionMethod",
-      "verificationMethod": "did:web:gaiax.itemis.de#X509-JWK2020",
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1"
-      ],
-"jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..hS7Si7cUh9AgHHhq09eYYwjcpQ-YpIx4kzVNUKNepqEIgoHcMjipZBJx3ASrCl3FgzafefveCeE4XjnkvDYMYAABXlkbvIq1evhVVWKjA70u41dmw5DNZ0UdpfGuf1168I5N2jzI4YlAcQnY27F6rL3-6l1lrscsSkciaZ7kxazygNACCeSY9fdjpex1bKCeMyxKTiymr5NX4ZGyBEkgSvixt2bHVWqfMLqgqjsTWd1np2nqdR8HihKISGeS_3RdtVZCAOcX5DXGWb2fG3GvlIyjSMUU-HcUPSqOVpMK_7343JOdYpSxO4yj0qeqr4LneOtNfwEIzpVSzZGlVzuHBw"
-   }
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d9TscxWsP_n-P448FtpLf-GIlQtZPh_OI0VdcfWxQydbVUWjxqbOhNM8fdRr2Y0ZPMW4trO8AgjEm-1NadbPDouhZiNHhwAVm7vdVYo2ENPGinj5-9QitMQsydvhWkOWw9fG29ltg9kc-oDsD8L_hwOIyQTmpGVe1HUESnVc3M0ZmGXBCMXWGCVt0SE8VmcDOn9RVSDTbM2PkyeiODPIKwbhiRpJxBO5Ni4bTlzzbmXURYgc1HRW75__e5_5S4Wz1cVo9q1Uc8Sgkuqx8zEeVKW1VxKD7aw5MpKULakumJIlBEtgQmwfqrf42D8zA76me0HOtKc5ZTFgmCC3Kdu8Vg"
+  }
+}
